@@ -13,7 +13,7 @@ const BrothersGym = () => {
     { name: 'Monthly Membership', price: '$60', features: ['Unlimited access', 'Free group classes', 'Locker room access'] },
     { name: 'Premium Plan', price: '$120', features: ['All monthly benefits', '1 personal training session/month', 'Custom meal plan'] },
   ];
-  const sampleGyn = "src/assets/sample_gym.jpg"
+  const sampleGyn = "./sample_gym.jpg"
 
   return (
     <div className="bg-black text-gray-200 font-sans leading-relaxed">
@@ -34,7 +34,7 @@ const BrothersGym = () => {
       </nav>
 
       {/* Hero Section */}
-      <header id="hero" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-[url('src/assets/landing_1.jpg')]">
+      <header id="hero" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-[url('./landing_1.jpg')]">
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="relative z-10 p-6 md:p-12">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-black uppercase text-red-600 drop-shadow-lg">Brothers</h1>
