@@ -1,6 +1,7 @@
 import React from 'react';
 import { Instagram, Facebook, Twitter, Mail, Phone, Users, Dumbbell, DollarSign , UserStar} from 'lucide-react';
 import {Link} from 'react-router-dom';
+import landing_1 from '../../public/landing_1.jpg';
 const BrothersGym = () => {
   const trainers = [
     { name: 'Alex "The Anvil" Stone', specialty: 'Strength & Powerlifting', bio: 'Alex has been training for over 15 years, specializing in maximizing raw strength and power.', image: 'https://placehold.co/400x400/1a1a1a/cccccc?text=Trainer+1' ,icon :<UserStar size={260} strokeWidth={1.5} /> },
@@ -14,6 +15,7 @@ const BrothersGym = () => {
     { name: 'Premium Plan', price: '$120', features: ['All monthly benefits', '1 personal training session/month', 'Custom meal plan'] },
   ];
   const sampleGyn = "./sample_gym.jpg"
+  // const landing_1 = "../../public/landing_1.jpg"
 
   return (
     <div className="bg-black text-gray-200 font-sans leading-relaxed">
@@ -34,7 +36,7 @@ const BrothersGym = () => {
       </nav>
 
       {/* Hero Section */}
-      <header id="hero" className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-[url('./landing_1.jpg')]">
+      <header id="hero" className={`relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-[url('../../public/landing_1.jpg')]`}>
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="relative z-10 p-6 md:p-12">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-black uppercase text-red-600 drop-shadow-lg">Brothers</h1>
