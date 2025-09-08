@@ -22,7 +22,7 @@ const BrothersGym = () => {
       {/* Navbar */}
       <nav className="fixed w-full z-50  bg-opacity-80 backdrop-filter backdrop-blur-sm shadow-lg">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#" className="text-3xl font-bold text-red-600 font-display">Brothers</a>
+          <a href="#" className="text-3xl font-bold text-red-600 font-display border p-2 rounded-lg border-red-600">Brothers</a>
           <div className="hidden md:flex space-x-8 text-sm uppercase">
             <a href="#hero" className="hover:text-red-600 transition-colors duration-300">Home</a>
             <a href="#about" className="hover:text-red-600 transition-colors duration-300">About</a>
@@ -36,7 +36,7 @@ const BrothersGym = () => {
       </nav>
 
       {/* Hero Section */}
-      <header id="hero" className={`relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-[url('../../public/landing_1.jpg')]`}>
+      <header id="hero" className={`relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center bg-parallax`}>
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="relative z-10 p-6 md:p-12">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-black uppercase text-red-600 drop-shadow-lg">Brothers</h1>
@@ -49,7 +49,7 @@ const BrothersGym = () => {
       </header>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-black">
+      <section id="about" className="py-20 bg-black rounded-t-[40px]  -translate-y-8">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-white mb-4 uppercase">About Brothers</h2>
           <div className="flex flex-col md:flex-row items-center md:space-x-12">
@@ -116,7 +116,7 @@ const BrothersGym = () => {
       </section>
 
       {/* Join Membership Section */}
-      <section id="join" className="py-20 bg-gray-950">
+      {/* <section id="join" className="py-20 bg-gray-950">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-4 uppercase">Join the Brotherhood</h2>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-10">
@@ -147,7 +147,7 @@ const BrothersGym = () => {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-black">
