@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 .bg-parallax {
-    background-image: url("./sample_gym.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-  }
+  background-image: url("/landing_1.jpg"); /* 👈 this is the key */
+  background-repeat: no-repeat; /* 👈 this is the key */
+  background-size: cover; /* 👈 this is the key */
+  background-position: center; /* 👈 this is the key */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
