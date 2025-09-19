@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-parallax {
-    background-image: url("./public/landing_1.jpg");
+    background-image: url("./public/images/landing_1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
