@@ -1,9 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .bg-parallax {
-    background-image: url("./landing_1.jpg");
+    background-image: url("./sample_gym.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
